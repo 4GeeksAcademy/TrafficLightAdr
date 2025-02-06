@@ -19,7 +19,7 @@ const TrafficLight = () => {
       position: 'absolute',
       top: '9.5%', 
       left: '50%',
-      transform: 'translate(-65%, 0)', /* Ajusta el centro del semáforo */
+      transform: 'translate(-63%, 0)', /* Ajusta el centro del semáforo */
       width: '30%',
       height: '40%',
       // backgroundColor: 'black',
@@ -31,7 +31,7 @@ const TrafficLight = () => {
       height: '8vh',
       borderRadius: '50%',
       backgroundColor: colors[color] === luzColor ? luzColor : "transparent",
-      margin: '3vh auto'
+      margin: '3vh auto',
     });
   
     return (
